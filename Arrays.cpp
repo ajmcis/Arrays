@@ -27,6 +27,7 @@ int main() {
 	cout <<"Array with double the original values: ";
 	DoubleIt(num, SIZE);
 	PrintArray(num, SIZE);
+	cout << "\n" << static_cast<char>(169) << " 2015 Mack" << endl;
 
 	return 0;
 }
@@ -34,7 +35,7 @@ int main() {
 void PrintArray(int num [], int size){
 
 	for (int i = 0; i < size; i++) {
-		 cout << num[i] << ", ";
+		 cout << num[i] << " ";
 
 	}
 
